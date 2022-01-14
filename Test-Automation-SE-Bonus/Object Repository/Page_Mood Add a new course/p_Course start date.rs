@@ -6,12 +6,12 @@
    <elementGuidId>7dab2b59-a1b6-4163-9a97-183e39778b3d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[@id='id_startdate_label']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_startdate_label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='id_startdate_label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

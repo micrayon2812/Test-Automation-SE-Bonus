@@ -6,12 +6,12 @@
    <elementGuidId>c0f791b2-59b4-4d66-94fc-50cb5a5dae36</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='month-mini-2022-1-1']/table/caption/span[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a[title=&quot;This month&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='month-mini-2022-1-1']/table/caption/span[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/calendar/view.php?view=month&amp;time=1642093200</value>
+      <value>http://localhost/calendar/view.php?view=month&amp;time=1642179600</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642093200']</value>
+      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642179600']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642093200']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

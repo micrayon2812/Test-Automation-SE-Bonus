@@ -6,12 +6,12 @@
    <elementGuidId>5495ba7e-a459-4622-8020-b98bbc459b5b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='id_startdate_day']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_startdate_day</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='id_startdate_day']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -104,7 +104,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1642173139154_1056']/select</value>
+      <value>//span[@id='yui_3_17_2_1_1642178672577_1050']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +140,27 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642178379943_1051']/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642178124932_1048']/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642173139154_1056']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
