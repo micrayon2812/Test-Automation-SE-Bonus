@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='yui_3_17_2_1_1642169138674_21']/a/i</value>
+         <value>//span[@id='yui_3_17_2_1_1642174222490_21']/a/i</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642169138674_21&quot;)/a[1]/i[@class=&quot;icon fa fa-floppy-o fa-fw&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1642174222490_21&quot;)/a[1]/i[@class=&quot;icon fa fa-floppy-o fa-fw&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1642169138674_21']/a/i</value>
+      <value>//span[@id='yui_3_17_2_1_1642174222490_21']/a/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +64,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642169138674_21']/a/i</value>
    </webElementXpaths>
 </WebElementEntity>

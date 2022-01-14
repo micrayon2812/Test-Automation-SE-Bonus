@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='form_autocomplete_downarrow-1642169139363']</value>
+         <value>//span[@id='form_autocomplete_downarrow-1642174222631']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#form_autocomplete_downarrow-1642169139363</value>
+         <value>#form_autocomplete_downarrow-1642174222631</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_autocomplete_downarrow-1642169139363</value>
+      <value>form_autocomplete_downarrow-1642174222631</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,21 +49,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_autocomplete_downarrow-1642169139363&quot;)</value>
+      <value>id(&quot;form_autocomplete_downarrow-1642174222631&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='form_autocomplete_downarrow-1642169139363']</value>
+      <value>//span[@id='form_autocomplete_downarrow-1642174222631']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1642169138674_21']/div[2]/span</value>
+      <value>//span[@id='yui_3_17_2_1_1642174222490_21']/div[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='form_autocomplete_downarrow-1642169139363']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642169138674_21']/div[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

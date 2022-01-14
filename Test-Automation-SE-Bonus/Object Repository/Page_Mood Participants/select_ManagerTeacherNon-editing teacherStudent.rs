@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='id_inplacevalue_90124887379836498111']</value>
+         <value>//select[@id='id_inplacevalue_74133699509967380152']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#id_inplacevalue_90124887379836498111</value>
+         <value>#id_inplacevalue_74133699509967380152</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>id_inplacevalue_90124887379836498111</value>
+      <value>id_inplacevalue_74133699509967380152</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,21 +70,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;id_inplacevalue_90124887379836498111&quot;)</value>
+      <value>id(&quot;id_inplacevalue_74133699509967380152&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='id_inplacevalue_90124887379836498111']</value>
+      <value>//select[@id='id_inplacevalue_74133699509967380152']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1642169138674_21']/select</value>
+      <value>//span[@id='yui_3_17_2_1_1642174222490_21']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='id_inplacevalue_90124887379836498111']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642169138674_21']/select</value>
    </webElementXpaths>
 </WebElementEntity>

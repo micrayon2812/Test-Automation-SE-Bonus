@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1642169118990_555']</value>
+         <value>//a[@id='yui_3_17_2_1_1642174179288_555']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1642169118990_555</value>
+         <value>#yui_3_17_2_1_1642174179288_555</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>../user/view.php?id=6&amp;course=1</value>
+      <value>../user/view.php?id=9&amp;course=1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1642169118990_555</value>
+      <value>yui_3_17_2_1_1642174179288_555</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,21 +49,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642169118990_555&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1642174179288_555&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1642169118990_555']</value>
+      <value>//a[@id='yui_3_17_2_1_1642174179288_555']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[@id='yui_3_17_2_1_1642169118990_556']/a</value>
+      <value>//td[@id='yui_3_17_2_1_1642174179288_556']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '../user/view.php?id=6&amp;course=1')]</value>
+      <value>//a[contains(@href, '../user/view.php?id=9&amp;course=1')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +120,26 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1642169118990_555']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='yui_3_17_2_1_1642169118990_556']/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '../user/view.php?id=6&amp;course=1')]</value>
    </webElementXpaths>
 </WebElementEntity>
