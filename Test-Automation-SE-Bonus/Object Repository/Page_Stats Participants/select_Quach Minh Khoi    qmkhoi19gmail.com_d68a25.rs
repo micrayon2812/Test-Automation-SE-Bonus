@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>courseid</name>
       <type>Main</type>
-      <value>5</value>
+      <value>7</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>enrolid</name>
       <type>Main</type>
-      <value>10</value>
+      <value>16</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642172298320_215']/select</value>
+      <value>//div[@id='yui_3_17_2_1_1642173244113_207']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,5 +151,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div/div/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642172298320_215']/select</value>
    </webElementXpaths>
 </WebElementEntity>
