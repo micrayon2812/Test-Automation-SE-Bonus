@@ -21,24 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle/span_You are not logged in. (Log in)'))
-
 WebUI.click(findTestObject('Object Repository/Page_Moodle/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username'), 'nmthu')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password'), 'zm/yZ1suVYniggK+4Jo9ew==')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'), 'Log in')
-
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/a_Calendar'), 'Calendar')
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'), 
-    'New event')
+WebUI.focus(findTestObject('Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'))
 
@@ -49,6 +42,16 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar D
     '26', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Festival at uni'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Festival at uni'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event'))
 
 WebUI.closeBrowser()
 

@@ -27,15 +27,28 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/i
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password'), 'zm/yZ1suVYniggK+4Jo9ew==')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_Site home'), 'Site home')
+WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle/a_Mathemetics'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Math/input_No enrolment key required_submitbutton'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Math/input_No enrolment key required_submitbutton'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Course Mathemetics/div_You are enrolled in the course'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Mathemetics/a_Unenrol me from Math'))
+
+WebUI.click(findTestObject('Object Repository/Page_Self enrolment (Student)/button_Continue'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics'))
 
 WebUI.closeBrowser()
 

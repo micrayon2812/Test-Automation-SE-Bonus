@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/a_January 2022'), 'January 2022')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dashboard/div_Calendar                               _78b00d'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))
 
@@ -42,6 +42,16 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar D
     '26', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Festival at uni'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Festival at uni'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event'))
 
 WebUI.closeBrowser()
 

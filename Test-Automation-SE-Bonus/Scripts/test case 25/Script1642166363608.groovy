@@ -33,9 +33,22 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_All courses'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood All courses/a_Mathemetics'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Math/input_No enrolment key required_submitbutton'), '')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Math/input_No enrolment key required_submitbutton'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Math/input_No enrolment key required_submitbutton'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Course Mathemetics/div_You are enrolled in the course'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Mathemetics/a_Unenrol me from Math'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Self enrolment (Student)/button_Continue'))
+
+WebUI.click(findTestObject('Object Repository/Page_Self enrolment (Student)/button_Continue'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics'))
 
 WebUI.closeBrowser()
 
