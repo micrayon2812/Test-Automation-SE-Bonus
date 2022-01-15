@@ -6,12 +6,12 @@
    <elementGuidId>36690529-29da-41d7-819b-f44e1abaa2ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='action-menu-toggle-1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#action-menu-toggle-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='action-menu-toggle-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
