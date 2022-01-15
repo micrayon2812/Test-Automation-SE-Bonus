@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Page_Dashboard/span_IntroCS'), 'IntroCS')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing on'), 

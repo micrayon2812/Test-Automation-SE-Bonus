@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/a_January 2022'), 'January 2022')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dashboard/div_Calendar                               _78b00d'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))
 

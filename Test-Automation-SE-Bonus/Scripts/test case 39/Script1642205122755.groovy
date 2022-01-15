@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Quach Minh Khoi')
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Profile'))
 
+WebUI.verifyElementText(findTestObject('Page_Quach Minh Khoi Public profile/a_Introduction to Computer Science'), 'Introduction to Computer Science')
+
 WebUI.click(findTestObject('Object Repository/Page_Quach Minh Khoi Public profile/a_Introduction to Computer Science'))
 
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_363e4d/a_Grades'))

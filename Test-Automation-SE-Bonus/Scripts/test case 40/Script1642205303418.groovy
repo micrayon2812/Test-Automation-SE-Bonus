@@ -27,15 +27,15 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/i
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password'), 'eiP2h/EMT1hJlGmKEGA7sg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4'))
-
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'), 'IntroCS')
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Competencies_media-left'))
+WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Grades'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Grades View/span_Course total'), 'Course total')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Grades View/h2_User report - Quach Minh Khoi'), 'User report - Quach Minh Khoi')
 
 WebUI.closeBrowser()
 

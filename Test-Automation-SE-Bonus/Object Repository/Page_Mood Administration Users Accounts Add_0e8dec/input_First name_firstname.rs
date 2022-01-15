@@ -6,12 +6,12 @@
    <elementGuidId>51a0b4cb-717a-4d72-ae05-532e7b2e39b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='id_firstname']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_firstname</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='id_firstname']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control </value>
+      <value>form-control is-invalid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,6 +68,20 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>id_error_firstname</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;id_firstname&quot;)</value>
@@ -84,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642174119553_777']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1642242441890_777']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642174119553_777']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

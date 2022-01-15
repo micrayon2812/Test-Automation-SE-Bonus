@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_Calendar'), 'Calendar')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'), 
@@ -45,6 +47,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar D
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/select_00        01        02        03    _f6e37b'), 
     '0', true)
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/select_00        01        02        03    _f6e37b_1'), 
+    '0', true)
+
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Show more'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/label_Until'))
@@ -53,6 +58,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar D
     '2021', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/div_The date and time you selected for dura_28074d'), 
+    'The date and time you selected for duration until is before the start time of the event. Please correct this before proceeding.')
 
 WebUI.closeBrowser()
 

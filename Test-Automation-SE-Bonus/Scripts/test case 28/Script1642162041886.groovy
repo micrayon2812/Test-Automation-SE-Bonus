@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementVisible(findTestObject('Page_Dashboard/div_Calendar                               _78b00d'))
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_23'))
 
 WebUI.closeBrowser()

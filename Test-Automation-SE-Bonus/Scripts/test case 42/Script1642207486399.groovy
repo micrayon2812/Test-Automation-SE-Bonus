@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Page_Dashboard/span_IntroCS'), 'IntroCS')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Announcements Forum'), 
@@ -40,7 +42,7 @@ WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new top
 
 WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Announcement for Tet holiday')
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_Wish you have a nice break'), '<p dir="ltr" style="text-align: left;">Wish you have a nice break</p>')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_Wish you have a nice break'), 'Wish you have a nice break')
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/div_Message'))
 
@@ -79,8 +81,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Add a n
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Add a new topic/select_00        01        02        03    _f6e37b_1_2_3'), 
     '0', true)
-
-WebUI.rightClick(findTestObject('Object Repository/Page_IntroCS Add a new topic/input__submitbutton'))
 
 WebUI.click(findTestObject('Object Repository/Page_IntroCS Add a new topic/input__submitbutton'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>29aee018-0704-4a12-a48e-dc43a0362698</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//th[@id='user-index-participants-4_r0_c0']/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.d-inline-block.aabtn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[@id='user-index-participants-4_r0_c0']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/user/view.php?id=3&amp;course=4</value>
+      <value>http://localhost/user/view.php?id=13&amp;course=4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +89,20 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/user/view.php?id=13&amp;course=4']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody/tr/th/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Quach Minh Khoi']/parent::*</value>
@@ -99,12 +113,5 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[@href='http://localhost/user/view.php?id=3&amp;course=4']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tbody/tr/th/a</value>
    </webElementXpaths>
 </WebElementEntity>

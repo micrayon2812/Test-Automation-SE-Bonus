@@ -29,9 +29,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/a_Introduction to Computer Science'), 'Introduction to Computer Science')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Introduction to Computer Science'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Grades'), 'Grades')
+
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Grades'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Grades View/h3_All participants 22'), 'All participants: 2/2')
 
 WebUI.closeBrowser()
 

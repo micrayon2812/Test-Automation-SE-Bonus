@@ -29,7 +29,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Calendar'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_Calendar'), 'Calendar')
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'), 
     0)
@@ -37,6 +39,9 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Calendar
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/div_- Required'), 
+    '- Required')
 
 WebUI.closeBrowser()
 

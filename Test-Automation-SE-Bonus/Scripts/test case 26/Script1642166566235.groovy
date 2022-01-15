@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/but
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
 
+WebUI.verifyElementText(findTestObject('Page_Moodle/a_Mathemetics'), 'Mathemetics')
+
 WebUI.click(findTestObject('Object Repository/Page_Moodle/a_Mathemetics'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Math/input_No enrolment key required_submitbutton'), 

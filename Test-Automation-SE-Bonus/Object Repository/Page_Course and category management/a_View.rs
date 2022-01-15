@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#action_link61e1a9d3938c860</value>
+         <value>#action_link61e2c0502601360</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='action_link61e1a9d3938c860']</value>
+         <value>//a[@id='action_link61e2c0502601360']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>action_link61e1a9d3938c860</value>
+      <value>action_link61e2c0502601360</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action_link61e1a9d3938c860&quot;)</value>
+      <value>id(&quot;action_link61e2c0502601360&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='action_link61e1a9d3938c860']</value>
+      <value>//a[@id='action_link61e2c0502601360']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +127,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='action_link61e1a9d3938c860']</value>
    </webElementXpaths>
 </WebElementEntity>

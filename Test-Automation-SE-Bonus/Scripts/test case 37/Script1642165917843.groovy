@@ -29,18 +29,53 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'), 'IntroCS')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Participants'), 
-    'Participants')
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Participants'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_IntroCS Participants/select_Select                        Keywor_5ec06e'), 
+    0)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_Select                        Keywor_5ec06e'), 
+    'roles', true)
+
+WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/span_'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_IntroCS Participants/li_Teacher'), 'Teacher')
+
+WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/li_Teacher'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_No roles                    Course c_9336fa'), 
+    '3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_No roles                    Course c_9336fa'), 
+    '3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_No roles                    Course c_9336fa'), 
+    '3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_No roles                    Course c_9336fa'), 
+    '3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_No roles                    Course c_9336fa'), 
+    '3', true)
+
+WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/button_Apply filters'))
+
+WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/section_Participants                       _399b9a'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_IntroCS Participants/a_Tran Minh Triet'), 'Tran Minh Triet')
+
 WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/a_Tran Minh Triet'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_abbbf2/span_Message'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_abbbf2/span_Message'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_abbbf2/textarea_Use enter to send_yui_3_17_2_1_164_a3b002'), 
+WebUI.setText(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_abbbf2/textarea_Use enter to send_yui_3_17_2_1_164_06a8dd'), 
     'Hello')
 
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_abbbf2/i__icon fa fa-paper-plane fa-fw'))

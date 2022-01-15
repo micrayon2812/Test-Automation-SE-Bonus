@@ -6,12 +6,12 @@
    <elementGuidId>7f3dd62a-b410-447a-87ce-11700174c8cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1642170596840_390']</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1642242441890_390</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1642170596840_390</value>
+         <key>XPATH</key>
+         <value>//div[@id='yui_3_17_2_1_1642242441890_390']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1642170596840_390</value>
+      <value>yui_3_17_2_1_1642242441890_390</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -168,7 +168,7 @@
             
             
                 
-••••••
+•••••••••
 
 
                 
@@ -1086,14 +1086,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642170596840_390&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1642242441890_390&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642170596840_390']</value>
+      <value>//div[@id='yui_3_17_2_1_1642242441890_390']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -1122,5 +1122,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642170596840_390']</value>
    </webElementXpaths>
 </WebElementEntity>

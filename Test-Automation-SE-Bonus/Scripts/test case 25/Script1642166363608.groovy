@@ -29,7 +29,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Page_Dashboard/a_All courses'), 'All courses')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_All courses'))
+
+WebUI.verifyElementText(findTestObject('Page_Mood All courses/a_Mathemetics'), 'Mathemetics')
 
 WebUI.click(findTestObject('Object Repository/Page_Mood All courses/a_Mathemetics'))
 

@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Page_Dashboard/a_Nguyen Minh Thu_1'), 'Nguyen Minh Thu')
+
 WebUI.doubleClick(findTestObject('Object Repository/Page_Dashboard/a_Nguyen Minh Thu_1'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Nguyen Minh Thu Public profile/span_Message'), 'Message')

@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/but
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
+WebUI.verifyElementText(findTestObject('Page_Dashboard/span_IntroCS'), 'IntroCS')
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Announcements Forum'), 
     0)
 

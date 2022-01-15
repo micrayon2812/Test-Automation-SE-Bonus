@@ -51,8 +51,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Add a new 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Add a new course/select_1        2        3        4        _45ea30_1'), 
     '13', true)
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Mood Add a new course/input__saveandreturn'))
-
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Add a new course/input__saveanddisplay'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Add a new course/input__saveanddisplay'))
@@ -119,8 +117,6 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course and ca
 WebUI.click(findTestObject('Object Repository/Page_Course and category management/i_Statistics_yui_3_17_2_1_1642173463341_325'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Delete Stats/button_Delete'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_Mood Deleting Stats/h2_Deleting Stats'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Deleting Stats/section_Deleting Stats        Deleted - Com_528425'))
 

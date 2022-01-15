@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Quach Minh Khoi')
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Grades'))
 
+WebUI.verifyElementText(findTestObject('Page_Grades - Quach Minh Khoi/a_Introduction to Computer Science'), 'Introduction to Computer Science')
+
 WebUI.click(findTestObject('Object Repository/Page_Grades - Quach Minh Khoi/a_Introduction to Computer Science'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_IntroCS Activity report (grade)/span_Course total'), 'Course total')

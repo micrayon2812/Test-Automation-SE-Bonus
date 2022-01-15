@@ -29,11 +29,16 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_Site administration'), 'Site administration')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Administration Search/a_Courses'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Administration Search/a_Manage courses and categories'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Course and category management/a_Introduction to Computer Science'), 
+    'Introduction to Computer Science')
 
 WebUI.click(findTestObject('Object Repository/Page_Course and category management/a_Introduction to Computer Science'))
 
@@ -41,7 +46,9 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course and ca
 
 WebUI.click(findTestObject('Object Repository/Page_Course and category management/a_View'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/a_Grades'))
+WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Grades'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Grades View/h3_All participants 22'), 'All participants: 2/2')
 
 WebUI.closeBrowser()
 

@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Page_Dashboard/span_IntroCS'), 'IntroCS')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Announcements Forum'), 
@@ -42,7 +44,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/p'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_Wish you have a nice break'), '<p dir="ltr" style="text-align: left;" id="yui_3_17_2_1_1642207217047_511">Wish you have a nice break</p>')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_Wish you have a nice break'), 'Wish you have a nice break')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Announcements/input_Message_submitbutton'), 0)
 

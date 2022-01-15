@@ -6,12 +6,12 @@
    <elementGuidId>b6441ec1-8e18-4284-9774-08aa5542fd9c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='message-user-button']/span/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.header-button-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='message-user-button']/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
