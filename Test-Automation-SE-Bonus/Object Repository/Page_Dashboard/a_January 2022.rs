@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/calendar/view.php?view=month&amp;time=1642179600</value>
+      <value>http://localhost/calendar/view.php?view=month&amp;time=1642266000</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642179600']</value>
+      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642266000']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642179600']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

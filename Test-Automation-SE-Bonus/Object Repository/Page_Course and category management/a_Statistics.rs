@@ -6,12 +6,12 @@
    <elementGuidId>00cf4626-b8ef-4570-8de4-2b1ddd51f262</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1642173463341_322']</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1642275183792_325</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1642173463341_322</value>
+         <key>XPATH</key>
+         <value>//a[@id='yui_3_17_2_1_1642275183792_325']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/course/management.php?categoryid=1&amp;courseid=7</value>
+      <value>http://localhost/course/management.php?categoryid=1&amp;courseid=13</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1642173463341_322</value>
+      <value>yui_3_17_2_1_1642275183792_325</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,21 +56,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642173463341_322&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1642275183792_325&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1642173463341_322']</value>
+      <value>//a[@id='yui_3_17_2_1_1642275183792_325']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='yui_3_17_2_1_1642173463341_51']/div/a</value>
+      <value>//div[@id='yui_3_17_2_1_1642275183792_317']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/course/management.php?categoryid=1&amp;courseid=7']</value>
+      <value>//a[@href='http://localhost/course/management.php?categoryid=1&amp;courseid=13']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,27 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1642173463341_322']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='yui_3_17_2_1_1642173463341_51']/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/course/management.php?categoryid=1&amp;courseid=7']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>b5e06e4d-435c-4c97-8936-2e80e4a9d472</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='action-menu-toggle-1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#action-menu-toggle-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='action-menu-toggle-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -124,7 +124,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642173244113_289']/a</value>
+      <value>//div[@id='yui_3_17_2_1_1642275051002_278']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,6 +160,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div/div/div/div/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642173244113_289']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//label[@id='yui_3_17_2_1_1642212077584_2466']/input</value>
+      <value>//label[@id='yui_3_17_2_1_1642277140089_2473']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +85,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='yui_3_17_2_1_1642212077584_2466']/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -65,16 +65,16 @@ WebUI.click(findTestObject('Object Repository/Page_Stats Participants/span_'))
 WebUI.click(findTestObject('Object Repository/Page_Stats Participants/span_Quach Minh Khoi'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
+    '17', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
+    '17', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
+    '17', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
+    '17', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Stats Participants/label_Assign role'))
 

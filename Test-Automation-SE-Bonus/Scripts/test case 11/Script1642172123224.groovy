@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_Site administration'), 'Site administration')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Administration Search/a_Courses'))
@@ -54,25 +56,26 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Add a ne
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Add a new course/input__saveanddisplay'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Stats Participants/input_Participants_btn btn-secondary my-1'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Stats Participants/input_Participants_btn btn-secondary my-1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Stats Participants/span_'))
 
-WebUI.click(findTestObject('Object Repository/Page_Stats Participants/span_Quach Minh Khoi'))
+WebUI.click(findTestObject('Object Repository/Page_Stats Participants/li_Quach Minh Khoi    qmkhoi19gmail.com'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
+    '17', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
+    '17', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
+    '17', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Stats Participants/select_Quach Minh Khoi    qmkhoi19gmail.com_d68a25'), 
-    '3', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Stats Participants/div_Assign role'))
+    '17', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Stats Participants/button_Enrol users'))
 
@@ -108,9 +111,12 @@ WebUI.click(findTestObject('Object Repository/Page_Mood Administration Search/a_
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Administration Search/a_Manage courses and categories'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course and category management/a_Statistics'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course and category management/div_Statistics bulk action selectionStatistics'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_Course and category management/i_Statistics_yui_3_17_2_1_1642172566955_327'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Course and category management/a_Statistics'), 'Statistics')
+
+WebUI.click(findTestObject('Object Repository/Page_Course and category management/i_Statistics_yui_3_17_2_1_1642275183792_327'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Delete Stats/button_Delete'))
 

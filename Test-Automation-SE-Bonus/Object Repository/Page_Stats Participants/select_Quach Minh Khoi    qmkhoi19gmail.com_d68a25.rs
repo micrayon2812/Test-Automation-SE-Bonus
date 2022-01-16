@@ -6,12 +6,12 @@
    <elementGuidId>765e802b-3d39-43f4-9e56-52b0787d03f3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='id_userlist']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_userlist</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='id_userlist']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>courseid</name>
       <type>Main</type>
-      <value>7</value>
+      <value>13</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>enrolid</name>
       <type>Main</type>
-      <value>16</value>
+      <value>34</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642173244113_207']/select</value>
+      <value>//div[@id='yui_3_17_2_1_1642275051002_207']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,6 +151,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div/div/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642173244113_207']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

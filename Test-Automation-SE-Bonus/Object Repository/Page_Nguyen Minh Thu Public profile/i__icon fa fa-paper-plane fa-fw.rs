@@ -6,12 +6,12 @@
    <elementGuidId>f13a34f7-6b6a-44cd-8854-0aa3ab7f265e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1642164193019_39']/div/button[2]/span/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='yui_3_17_2_1_1642286579398_39']/div/button[2]/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642164193019_39&quot;)/div[@class=&quot;position-relative d-flex flex-column&quot;]/button[@class=&quot;btn btn-link btn-icon icon-size-3 ml-1 mt-auto&quot;]/span[1]/i[@class=&quot;icon fa fa-paper-plane fa-fw&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1642286579398_39&quot;)/div[@class=&quot;position-relative d-flex flex-column&quot;]/button[@class=&quot;btn btn-link btn-icon icon-size-3 ml-1 mt-auto&quot;]/span[1]/i[@class=&quot;icon fa fa-paper-plane fa-fw&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642164193019_39']/div/button[2]/span/i</value>
+      <value>//div[@id='yui_3_17_2_1_1642286579398_39']/div/button[2]/span/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,5 +57,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642164193019_39']/div/button[2]/span/i</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1642212077584_67</value>
+         <value>#yui_3_17_2_1_1642277140089_67</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1642212077584_67']</value>
+         <value>//a[@id='yui_3_17_2_1_1642277140089_67']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1642212077584_67</value>
+      <value>yui_3_17_2_1_1642277140089_67</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,21 +77,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642212077584_67&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1642277140089_67&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1642212077584_67']</value>
+      <value>//a[@id='yui_3_17_2_1_1642277140089_67']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//legend[@id='yui_3_17_2_1_1642212077584_2459']/a</value>
+      <value>//legend[@id='yui_3_17_2_1_1642277140089_2467']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +148,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[2]/legend/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1642212077584_67']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//legend[@id='yui_3_17_2_1_1642212077584_2459']/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,9 +29,18 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Dashboard/div_Calendar                               _78b00d'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dashboard/div_Calendar                               _78b00d'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_23'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/li_3 weeks for Tet'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_3 weeks for Tet'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/h5_3 weeks for Tet'), 
+    '3 weeks for Tet')
 
 WebUI.closeBrowser()
 

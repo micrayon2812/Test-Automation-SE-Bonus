@@ -6,12 +6,12 @@
    <elementGuidId>cfd78c99-ee17-4a80-b04c-cd55508a8ace</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='inst44']/div/div/ul/li/div/a</value>
+         <key>CSS</key>
+         <value>a[title=&quot;now&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a[title=&quot;2 secs&quot;]</value>
+         <key>XPATH</key>
+         <value>//section[@id='inst169']/div/div/ul/li/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>2 secs</value>
+      <value>now</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inst44&quot;)/div[@class=&quot;card-body p-3&quot;]/div[@class=&quot;card-text content mt-3&quot;]/ul[@class=&quot;list&quot;]/li[@class=&quot;listentry&quot;]/div[@class=&quot;user&quot;]/a[1]</value>
+      <value>id(&quot;inst169&quot;)/div[@class=&quot;card-body p-3&quot;]/div[@class=&quot;card-text content mt-3&quot;]/ul[@class=&quot;list&quot;]/li[@class=&quot;listentry&quot;]/div[@class=&quot;user&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='inst44']/div/div/ul/li/div/a</value>
+      <value>//section[@id='inst169']/div/div/ul/li/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[4]/div/div/ul/li/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='inst44']/div/div/ul/li/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

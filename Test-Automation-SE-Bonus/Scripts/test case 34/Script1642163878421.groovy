@@ -27,17 +27,23 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/i
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password'), 'zm/yZ1suVYniggK+4Jo9ew==')
 
+WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4'))
+
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Page_Dashboard/a_Nguyen Minh Thu_1'), 'Nguyen Minh Thu')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/h5_Online users'), 'Online users')
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_Dashboard/a_Nguyen Minh Thu_1'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dashboard/div_Online users                    1 onlin_84bdab'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Nguyen Minh Thu Public profile/span_Message'), 'Message')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/a_Nguyen Minh Thu'), 'Nguyen Minh Thu')
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Nguyen Minh Thu'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Nguyen Minh Thu Public profile/span_Message'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Nguyen Minh Thu Public profile/span_Message'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Nguyen Minh Thu Public profile/textarea_Use enter to send_yui_3_17_2_1_164_553a7a'), 
+WebUI.setText(findTestObject('Object Repository/Page_Nguyen Minh Thu Public profile/textarea_Use enter to send_yui_3_17_2_1_164_0af767'), 
     'Hello')
 
 WebUI.click(findTestObject('Object Repository/Page_Nguyen Minh Thu Public profile/i__icon fa fa-paper-plane fa-fw'))

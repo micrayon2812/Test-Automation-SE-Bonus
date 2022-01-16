@@ -6,12 +6,12 @@
    <elementGuidId>7fb09c32-1f72-484e-adc3-2bd16d8af2d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='Enrol users']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.btn.btn-secondary.my-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Enrol users']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

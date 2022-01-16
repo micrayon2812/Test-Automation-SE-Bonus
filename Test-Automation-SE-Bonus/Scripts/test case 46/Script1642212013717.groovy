@@ -29,12 +29,12 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Page_Dashboard/span_IntroCS'), 'IntroCS')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'), 'IntroCS')
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing on'), 
-    0)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Course Introduction to Computer Science/h1_Introduction to Computer Science'), 
+    'Introduction to Computer Science')
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing on'))
 
@@ -42,16 +42,15 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Course Introducti
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Add an activity or resource'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/img_Information about the Page activity_icon icon'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/a_Quiz'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/img_Information about the Page activity_icon icon'))
+WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/a_Quiz'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Editing Quiz/input_Name_name'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing Quiz/label_Name_1'), 'Name')
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing Quiz/input_Name_name'), 'Quiz 1')
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Editing Quiz/a_Timing'), 0)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Editing Quiz/a_Timing'))
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Quiz/a_Timing'))
 
@@ -87,13 +86,10 @@ WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Comput
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Delete'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Yes'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Yes'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Yes'))
-
-WebUI.mouseOver(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing off'), 
-    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing off'))
 
