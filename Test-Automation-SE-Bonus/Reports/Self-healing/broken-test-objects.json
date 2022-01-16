@@ -1169,6 +1169,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Introduction to Computer Science/a_Topic 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_3 weeks for Tet",
+      "brokenLocator": "//div[@id\u003d\u0027month-upcoming-mini-61e3a1d0af96d61e3a1d0997fc4\u0027]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Upcoming events\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_3 weeks for Tet_neighbor.png"
     }
   ]
 }
