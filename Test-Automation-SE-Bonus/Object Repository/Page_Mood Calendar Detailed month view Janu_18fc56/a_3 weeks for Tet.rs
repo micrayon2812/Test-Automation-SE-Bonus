@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='month-detailed-61e34f018a13961e34f015336615']/tbody/tr[4]/td[7]/div/div/ul/li/a</value>
+         <value>//table[@id='month-detailed-61e3a5257e82561e3a525554bc15']/tbody/tr[4]/td[7]/div/div/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -69,14 +69,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;month-detailed-61e34f018a13961e34f015336615&quot;)/tbody[1]/tr[4]/td[@class=&quot;day text-sm-center text-md-left weekend clickable&quot;]/div[@class=&quot;d-none d-md-block hidden-phone text-xs-center&quot;]/div[1]/ul[1]/li[1]/a[1]</value>
+      <value>id(&quot;month-detailed-61e3a5257e82561e3a525554bc15&quot;)/tbody[1]/tr[4]/td[@class=&quot;day text-sm-center text-md-left weekend clickable&quot;]/div[@class=&quot;d-none d-md-block hidden-phone text-xs-center&quot;]/div[1]/ul[1]/li[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='month-detailed-61e34f018a13961e34f015336615']/tbody/tr[4]/td[7]/div/div/ul/li/a</value>
+      <value>//table[@id='month-detailed-61e3a5257e82561e3a525554bc15']/tbody/tr[4]/td[7]/div/div/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +119,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]/div/div/ul/li/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='month-detailed-61e3a192854c061e3a1925f7b315']/tbody/tr[4]/td[7]/div/div/ul/li/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='month-detailed-61e34f018a13961e34f015336615']/tbody/tr[4]/td[7]/div/div/ul/li/a</value>
    </webElementXpaths>
 </WebElementEntity>

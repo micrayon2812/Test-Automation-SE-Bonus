@@ -1039,6 +1039,96 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_Nguyen Minh Thu_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle/a_Log in",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642308036567_20\u0027]/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Log in\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Moodle/a_Log in_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Sunday, 23 January",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642307986541_439\u0027]/div/div/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Sunday, 23 January\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Sunday, 23 January_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Sunday, 23 January",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642308048827_192\u0027]/div/div/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u0027Sunday, 23 January\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_Sunday, 23 January_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/div_Courses                    Introduction to Computer ScienceMathemetics            All courses",
+      "brokenLocator": "//section[@id\u003d\u0027inst154\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Card\u0027])[1]/following::div[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/div_Courses                    Introduction to Computer ScienceMathemetics            All courses_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Introduction to Computer Science",
+      "brokenLocator": "//section[@id\u003d\u0027inst32\u0027]/div/div/ul/li/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/ul/li/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_Introduction to Computer Science_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/div_My courses                    Introduction to Computer Science            All courses",
+      "brokenLocator": "//section[@id\u003d\u0027inst195\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Remove Introduction to Computer Science from view\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/div_My courses                    Introduction to Computer Science            All courses_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_All courses",
+      "brokenLocator": "//section[@id\u003d\u0027inst52\u0027]/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.footer \u003e a",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_All courses_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Sunday, 23 January",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642308901509_439\u0027]/div/div/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Data retention summary\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Sunday, 23 January_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Sunday, 23 January",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642308048827_192\u0027]/div/div/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Data retention summary\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_Sunday, 23 January_neighbor.png"
     }
   ]
 }

@@ -33,7 +33,15 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_Ca
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_23'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_3 weeks for Tet'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_3 weeks for Tet'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/h5_3 weeks for Tet'), 
+    '3 weeks for Tet')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Sunday, 23 January'), 
+    'Sunday, 23 January')
 
 WebUI.closeBrowser()
 

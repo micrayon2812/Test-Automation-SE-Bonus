@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#inst171 > div.card-body.p-3</value>
+         <value>#inst190 > div.card-body.p-3</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='inst171']/div</value>
+         <value>//section[@id='inst190']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -244,14 +244,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inst171&quot;)/div[@class=&quot;card-body p-3&quot;]</value>
+      <value>id(&quot;inst190&quot;)/div[@class=&quot;card-body p-3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='inst171']/div</value>
+      <value>//section[@id='inst190']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -273,6 +273,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[6]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='inst171']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

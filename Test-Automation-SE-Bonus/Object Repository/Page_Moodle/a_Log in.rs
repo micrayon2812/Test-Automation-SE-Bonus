@@ -105,6 +105,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642308036567_20']/span/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='yui_3_17_2_1_1642179882290_20']/span/a</value>
    </webElementXpaths>
    <webElementXpaths>

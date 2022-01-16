@@ -459,3 +459,19 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sun Jan 16 10:28:32.260706 2022] [mpm_winnt:notice] [pid 22020:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Jan 16 10:28:34.278898 2022] [mpm_winnt:notice] [pid 2320:tid 556] AH00364: Child: All worker threads have exited.
 [Sun Jan 16 10:28:34.347433 2022] [mpm_winnt:notice] [pid 22020:tid 572] AH00430: Parent: Child process 2320 exited successfully.
+[Sun Jan 16 10:35:28.187528 2022] [ssl:warn] [pid 20012:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 10:35:28.218823 2022] [ssl:warn] [pid 20012:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 16 10:35:28.250074 2022] [mpm_winnt:notice] [pid 20012:tid 684] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Jan 16 10:35:28.250074 2022] [mpm_winnt:notice] [pid 20012:tid 684] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jan 16 10:35:28.250074 2022] [core:notice] [pid 20012:tid 684] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Test-Automation-SE-Bonus/server/apache -f conf\\httpd.conf'
+[Sun Jan 16 10:35:28.250074 2022] [mpm_winnt:notice] [pid 20012:tid 684] AH00418: Parent: Created child process 1044
+[Sun Jan 16 10:35:28.841068 2022] [ssl:warn] [pid 1044:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 10:35:28.872382 2022] [ssl:warn] [pid 1044:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 16 10:35:28.887955 2022] [mpm_winnt:notice] [pid 1044:tid 664] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 16 11:13:19.698677 2022] [php7:notice] [pid 1044:tid 1968] [client ::1:61248] [client 0:0:0:0:0:0:0:1]  http://localhost  Suspended Login:  qmkhoi  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36, referer: http://localhost/login/index.php
+[Sun Jan 16 11:13:27.741706 2022] [php7:notice] [pid 1044:tid 1968] [client ::1:61251] [client 0:0:0:0:0:0:0:1]  http://localhost  Suspended Login:  qmkhoi  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36, referer: http://localhost/login/index.php
+[Sun Jan 16 13:52:56.561578 2022] [mpm_winnt:notice] [pid 20012:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 16 13:52:58.598009 2022] [mpm_winnt:notice] [pid 1044:tid 664] AH00364: Child: All worker threads have exited.
+[Sun Jan 16 13:52:58.660510 2022] [mpm_winnt:notice] [pid 20012:tid 684] AH00430: Parent: Child process 1044 exited successfully.

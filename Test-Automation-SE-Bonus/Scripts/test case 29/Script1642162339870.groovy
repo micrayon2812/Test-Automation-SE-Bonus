@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
+WebUI.click(findTestObject('Object Repository/Page_Moodle/div_You are not logged in. (Log in)'))
+
 WebUI.click(findTestObject('Object Repository/Page_Moodle/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username'), 'nmthu')
@@ -29,9 +31,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/a_3 weeks for Tet'), '3 weeks for Tet')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dashboard/div_Upcoming events                        _f1fb13'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Dashboard/a_3 weeks for Tet'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_3 weeks for Tet'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/h5_3 weeks for Tet'), '3 weeks for Tet')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/a_Sunday, 23 January'), 'Sunday, 23 January')
 
 WebUI.closeBrowser()
 
