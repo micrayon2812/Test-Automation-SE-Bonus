@@ -68,11 +68,11 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Mood Calendar 
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Tet Quiz'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+WebUI.verifyElementClickable(findTestObject('Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+WebUI.click(findTestObject('Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event'))
+WebUI.click(findTestObject('Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event'))
 
 WebUI.closeBrowser()
 
