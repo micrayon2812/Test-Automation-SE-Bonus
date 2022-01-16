@@ -38,6 +38,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Course Introdu
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Announcements Forum'))
 
+WebUI.verifyElementText(findTestObject('Page_Announcements/h2_Announcements'), 'Announcements')
+
 WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Announcements/input_Message_submitbutton'), 0)

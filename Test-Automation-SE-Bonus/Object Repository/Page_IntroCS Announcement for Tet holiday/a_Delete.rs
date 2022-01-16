@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//article[@id='p9']/div/div/div/div[2]/div[2]/div/a[3]</value>
+         <value>//article[@id='p22']/div/div/div/div[2]/div[2]/div/a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/mod/forum/post.php?delete=9</value>
+      <value>http://localhost/mod/forum/post.php?delete=22</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,14 +72,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;p9&quot;)/div[@class=&quot;d-flex border p-2 mb-2 forumpost focus-target  firstpost starter&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[@class=&quot;d-flex body-content-container&quot;]/div[@class=&quot;no-overflow w-100 content-alignment-container&quot;]/div[@class=&quot;d-flex flex-wrap&quot;]/div[@class=&quot;post-actions d-flex align-self-end justify-content-end flex-wrap ml-auto&quot;]/a[@class=&quot;btn btn-link&quot;]</value>
+      <value>id(&quot;p22&quot;)/div[@class=&quot;d-flex border p-2 mb-2 forumpost focus-target  firstpost starter&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[@class=&quot;d-flex body-content-container&quot;]/div[@class=&quot;no-overflow w-100 content-alignment-container&quot;]/div[@class=&quot;d-flex flex-wrap&quot;]/div[@class=&quot;post-actions d-flex align-self-end justify-content-end flex-wrap ml-auto&quot;]/a[@class=&quot;btn btn-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//article[@id='p9']/div/div/div/div[2]/div[2]/div/a[3]</value>
+      <value>//article[@id='p22']/div/div/div/div[2]/div[2]/div/a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/mod/forum/post.php?delete=9']</value>
+      <value>//a[@href='http://localhost/mod/forum/post.php?delete=22']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,6 +136,20 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='p9']/div/div/div/div[2]/div[2]/div/a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/mod/forum/post.php?delete=9']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

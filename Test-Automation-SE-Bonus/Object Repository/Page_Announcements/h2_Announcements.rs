@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a new topic'])[1]/preceding::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visible groups: All participants'])[1]/preceding::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +78,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a new topic'])[1]/preceding::h2[1]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1642208221973_481']/p[2]</value>
+         <value>//span[@id='user-notifications']/div/p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642208221973_481&quot;)/p[2]</value>
+      <value>id(&quot;user-notifications&quot;)/div[@class=&quot;alert alert-success alert-block fade in&quot;]/p[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642208221973_481']/p[2]</value>
+      <value>//span[@id='user-notifications']/div/p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +91,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='user-notifications']/div/p[2]</value>
+      <value>//div[@id='yui_3_17_2_1_1642208221973_481']/p[2]</value>
    </webElementXpaths>
 </WebElementEntity>

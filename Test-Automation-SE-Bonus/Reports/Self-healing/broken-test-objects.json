@@ -1139,6 +1139,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/div_Upcoming events                        _f1fb13_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/span_Tet Quiz",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642337585482_2029\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No events, Friday, 21 January\u0027])[2]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/span_Tet Quiz_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Saturday, 22 January",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642337585482_2054\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Saturday, 22 January\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Saturday, 22 January_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Introduction to Computer Science/a_Topic 1",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642277100868_624\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Delete topic\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Introduction to Computer Science/a_Topic 1_neighbor.png"
     }
   ]
 }
