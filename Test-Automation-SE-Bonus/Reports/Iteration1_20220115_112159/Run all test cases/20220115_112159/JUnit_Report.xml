@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="622.097" tests="20" failures="0" errors="0">
+   <testsuite name="Run all test cases" tests="20" failures="0" errors="0" time="622.097" skipped="0" timestamp="2022-01-15 11:22:07" hostname="LENOVO - host.docker.internal" id="Test Suites/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test-Automation-SE-Bonus\\Test-Automation-SE-Bonus\\Reports\\20220115_112159\\Run all test cases\\20220115_112159"/>
+         <property name="logFiles" value="D:\\Test-Automation-SE-Bonus\\Test-Automation-SE-Bonus\\Reports\\20220115_112159\\Run all test cases\\20220115_112159\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="8180fd7a6ebc5686aaad2a63f0d7551d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test case 01" time="10.52" classname="Test Cases/test case 01" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:22:08 - [TEST_CASE][PASSED] - Test Cases/test case 01: Test Cases/test case 01
+
+2022-01-15 11:22:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:22:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:22:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:22:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:22:11 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "r6H/uPCyCbQX7sAf5E1f3g=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:22:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 02" time="6.189" classname="Test Cases/test case 02" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:22:18 - [TEST_CASE][PASSED] - Test Cases/test case 02: Test Cases/test case 02
+
+2022-01-15 11:22:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:22:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:22:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:22:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:22:20 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "qmkhoi19"): Text 'qmkhoi19' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:23 - [MESSAGE][PASSED] - Text 'qmkhoi19' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "eiP2h/EMT1hJlGmKEGA7sg=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:22:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 03" time="6.045" classname="Test Cases/test case 03" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:22:24 - [TEST_CASE][PASSED] - Test Cases/test case 03: Test Cases/test case 03
+
+2022-01-15 11:22:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:22:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:22:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:22:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:22:26 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "tmtriet"): Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:29 - [MESSAGE][PASSED] - Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "7zaGmpS+cDNyF13apsNnmA=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:22:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 04" time="5.09" classname="Test Cases/test case 04" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:22:30 - [TEST_CASE][PASSED] - Test Cases/test case 04: Test Cases/test case 04
+
+2022-01-15 11:22:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:22:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:22:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:22:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:22:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:22:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 05" time="5.469" classname="Test Cases/test case 05" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:22:35 - [TEST_CASE][PASSED] - Test Cases/test case 05: Test Cases/test case 05
+
+2022-01-15 11:22:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:22:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:22:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:22:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:22:37 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in as a guest")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in as a guest' is clicked on
+
+2022-01-15 11:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in as a guest' is clicked on
+
+2022-01-15 11:22:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:22:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 17" time="9.797" classname="Test Cases/test case 17" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:22:41 - [TEST_CASE][PASSED] - Test Cases/test case 17: Test Cases/test case 17
+
+2022-01-15 11:22:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:22:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:22:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:22:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:22:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:45 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "r6H/uPCyCbQX7sAf5E1f3g=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Introduction to Computer Science")): Object: 'Object Repository/Page_Dashboard/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Introduction to Computer Science/span_Grades")): Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Grades' is clicked on
+
+2022-01-15 11:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Grades' is clicked on
+
+2022-01-15 11:22:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:22:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 18" time="122.913" classname="Test Cases/test case 18" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:22:51 - [TEST_CASE][PASSED] - Test Cases/test case 18: Test Cases/test case 18
+
+2022-01-15 11:22:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:22:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:22:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:22:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:22:52 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:22:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:22:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:22:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "r6H/uPCyCbQX7sAf5E1f3g=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:22:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site administration")): Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 11:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 11:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mood Administration Search/a_Courses")): Object: 'Object Repository/Page_Mood Administration Search/a_Courses' is clicked on
+
+2022-01-15 11:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mood Administration Search/a_Courses' is clicked on
+
+2022-01-15 11:23:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mood Administration Search/a_Manage courses and categories")): Object: 'Object Repository/Page_Mood Administration Search/a_Manage courses and categories' is clicked on
+
+2022-01-15 11:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mood Administration Search/a_Manage courses and categories' is clicked on
+
+2022-01-15 11:23:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course and category management/a_Introduction to Computer Science")): Object: 'Object Repository/Page_Course and category management/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:23:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='yui_3_17_2_1_1642179015392_252']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:23:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Course and category management/a_Introduction to Computer Science'. Try using Self-healing.
+
+2022-01-15 11:23:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='yui_3_17_2_1_1642179015392_252']'.
+
+2022-01-15 11:23:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//li[@id='yui_3_17_2_1_1642179015392_51']/div/a'.
+
+2022-01-15 11:23:47 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//a[contains(text(),'Introduction to Computer Science')]'.
+
+2022-01-15 11:23:47 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/Test-Automation-SE-Bonus/Test-Automation-SE-Bonus/Reports/Self-healing/Object Repository/Page_Course and category management/a_Introduction to Computer Science_link.png
+
+2022-01-15 11:23:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Course and category management/a_Introduction to Computer Science' was broken. Propose an alternative one: '//a[contains(text(),'Introduction to Computer Science')]'.
+
+2022-01-15 11:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course and category management/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:23:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Course and category management/a_View"), 0): Object 'Object Repository/Page_Course and category management/a_View' is visible
+
+2022-01-15 11:23:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-15 11:24:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='action_link61e1a9d3938c860']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:24:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Course and category management/a_View'. Try using Self-healing.
+
+2022-01-15 11:24:20 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='action_link61e1a9d3938c860']'.
+
+2022-01-15 11:24:20 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='course-detail']/div/div[2]/div/a'.
+
+2022-01-15 11:24:20 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/Test-Automation-SE-Bonus/Test-Automation-SE-Bonus/Reports/Self-healing/Object Repository/Page_Course and category management/a_View_idRelative.png
+
+2022-01-15 11:24:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Course and category management/a_View' was broken. Propose an alternative one: '//div[@id='course-detail']/div/div[2]/div/a'.
+
+2022-01-15 11:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Course and category management/a_View' is visible
+
+2022-01-15 11:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course and category management/a_View")): Object: 'Object Repository/Page_Course and category management/a_View' is clicked on
+
+2022-01-15 11:24:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='action_link61e1a9d3938c860']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:24:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Course and category management/a_View'. Try using Self-healing.
+
+2022-01-15 11:24:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Course and category management/a_View' was broken. Propose an alternative one: '//div[@id='course-detail']/div/div[2]/div/a'.
+
+2022-01-15 11:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course and category management/a_View' is clicked on
+
+2022-01-15 11:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Introduction to Computer Science/a_Grades")): Object: 'Object Repository/Page_Course Introduction to Computer Science/a_Grades' is clicked on
+
+2022-01-15 11:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Introduction to Computer Science/a_Grades' is clicked on
+
+2022-01-15 11:24:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:24:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 19" time="10.081" classname="Test Cases/test case 19" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:24:54 - [TEST_CASE][PASSED] - Test Cases/test case 19: Test Cases/test case 19
+
+2022-01-15 11:24:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:24:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:24:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:24:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:24:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:24:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:24:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:24:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:24:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:24:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "r6H/uPCyCbQX7sAf5E1f3g=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:24:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:24:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home")): Object: 'Object Repository/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 11:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 11:25:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Introduction to Computer Science")): Object: 'Object Repository/Page_Moodle/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Introduction to Computer Science/span_Grades")): Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Grades' is clicked on
+
+2022-01-15 11:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Grades' is clicked on
+
+2022-01-15 11:25:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:25:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 25" time="110.405" classname="Test Cases/test case 25" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:25:04 - [TEST_CASE][PASSED] - Test Cases/test case 25: Test Cases/test case 25
+
+2022-01-15 11:25:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:25:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:25:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:25:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:25:05 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:25:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:25:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:25:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "nmthu"): Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:25:08 - [MESSAGE][PASSED] - Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:25:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "zm/yZ1suVYniggK+4Jo9ew=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:25:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_All courses")): Object: 'Object Repository/Page_Dashboard/a_All courses' is clicked on
+
+2022-01-15 11:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_All courses' is clicked on
+
+2022-01-15 11:25:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mood All courses/a_Mathemetics")): Object: 'Object Repository/Page_Mood All courses/a_Mathemetics' is clicked on
+
+2022-01-15 11:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mood All courses/a_Mathemetics' is clicked on
+
+2022-01-15 11:25:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Math/input_No enrolment key required_submitbutton"), 0): Object 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is visible
+
+2022-01-15 11:25:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-15 11:25:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is visible
+
+2022-01-15 11:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Math/input_No enrolment key required_submitbutton")): Object: 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is clicked on
+
+2022-01-15 11:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is clicked on
+
+2022-01-15 11:25:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Course Mathemetics/div_You are enrolled in the course")): Object 'Object Repository/Page_Course Mathemetics/div_You are enrolled in the course' is visible
+
+2022-01-15 11:25:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Course Mathemetics/div_You are enrolled in the course' is visible
+
+2022-01-15 11:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2")): Object: 'Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2' is clicked on
+
+2022-01-15 11:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2' is clicked on
+
+2022-01-15 11:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Mathemetics/a_Unenrol me from Math")): Object: 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math' is clicked on
+
+2022-01-15 11:25:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='action_link61e2439977cb812']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:25:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math'. Try using Self-healing.
+
+2022-01-15 11:25:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math' was broken. Propose an alternative one: '//div[@id='action-menu-2-menu']/div/a'.
+
+2022-01-15 11:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math' is clicked on
+
+2022-01-15 11:25:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Self enrolment (Student)/button_Continue")): Object 'Object Repository/Page_Self enrolment (Student)/button_Continue' is clickable
+
+2022-01-15 11:26:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='single_button61e243a5d81b213']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:26:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Self enrolment (Student)/button_Continue'. Try using Self-healing.
+
+2022-01-15 11:26:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Self enrolment (Student)/button_Continue' was broken. Propose an alternative one: '//div[@id='modal-footer']/div/div/form/button'.
+
+2022-01-15 11:26:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Self enrolment (Student)/button_Continue' is clickable
+
+2022-01-15 11:26:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Self enrolment (Student)/button_Continue")): Object: 'Object Repository/Page_Self enrolment (Student)/button_Continue' is clicked on
+
+2022-01-15 11:26:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='single_button61e243a5d81b213']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:26:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Self enrolment (Student)/button_Continue'. Try using Self-healing.
+
+2022-01-15 11:26:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Self enrolment (Student)/button_Continue' was broken. Propose an alternative one: '//div[@id='modal-footer']/div/div/form/button'.
+
+2022-01-15 11:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Self enrolment (Student)/button_Continue' is clicked on
+
+2022-01-15 11:26:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics")): Object 'Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics' is visible
+
+2022-01-15 11:26:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics' is visible
+
+2022-01-15 11:26:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:26:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 26" time="79.298" classname="Test Cases/test case 26" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:26:54 - [TEST_CASE][PASSED] - Test Cases/test case 26: Test Cases/test case 26
+
+2022-01-15 11:26:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:26:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:26:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:26:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:26:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:26:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:26:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "nmthu"): Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:26:59 - [MESSAGE][PASSED] - Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:26:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "zm/yZ1suVYniggK+4Jo9ew=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:26:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4")): Object: 'Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4' is clicked on
+
+2022-01-15 11:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4' is clicked on
+
+2022-01-15 11:27:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home")): Object: 'Object Repository/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 11:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 11:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Mathemetics")): Object: 'Object Repository/Page_Moodle/a_Mathemetics' is clicked on
+
+2022-01-15 11:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Mathemetics' is clicked on
+
+2022-01-15 11:27:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Math/input_No enrolment key required_submitbutton"), 0): Object 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is visible
+
+2022-01-15 11:27:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-15 11:27:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is visible
+
+2022-01-15 11:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Math/input_No enrolment key required_submitbutton")): Object: 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is clicked on
+
+2022-01-15 11:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Math/input_No enrolment key required_submitbutton' is clicked on
+
+2022-01-15 11:27:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Course Mathemetics/div_You are enrolled in the course")): Object 'Object Repository/Page_Course Mathemetics/div_You are enrolled in the course' is visible
+
+2022-01-15 11:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Course Mathemetics/div_You are enrolled in the course' is visible
+
+2022-01-15 11:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2")): Object: 'Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2' is clicked on
+
+2022-01-15 11:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Mathemetics/a_Mathemetics_action-menu-toggle-2' is clicked on
+
+2022-01-15 11:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Mathemetics/a_Unenrol me from Math")): Object: 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math' is clicked on
+
+2022-01-15 11:27:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='action_link61e2439977cb812']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:27:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math'. Try using Self-healing.
+
+2022-01-15 11:27:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math' was broken. Propose an alternative one: '//div[@id='action-menu-2-menu']/div/a'.
+
+2022-01-15 11:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Mathemetics/a_Unenrol me from Math' is clicked on
+
+2022-01-15 11:27:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Self enrolment (Student)/button_Continue")): Object: 'Object Repository/Page_Self enrolment (Student)/button_Continue' is clicked on
+
+2022-01-15 11:28:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='single_button61e243a5d81b213']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:28:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Self enrolment (Student)/button_Continue'. Try using Self-healing.
+
+2022-01-15 11:28:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Self enrolment (Student)/button_Continue' was broken. Propose an alternative one: '//div[@id='modal-footer']/div/div/form/button'.
+
+2022-01-15 11:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Self enrolment (Student)/button_Continue' is clicked on
+
+2022-01-15 11:28:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics")): Object 'Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics' is visible
+
+2022-01-15 11:28:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard/div_You are unenrolled from the course Mathemetics' is visible
+
+2022-01-15 11:28:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:28:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 27" time="10.305" classname="Test Cases/test case 27" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:28:13 - [TEST_CASE][PASSED] - Test Cases/test case 27: Test Cases/test case 27
+
+2022-01-15 11:28:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:28:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:28:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:28:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:28:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:28:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:28:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "nmthu"): Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:28:18 - [MESSAGE][PASSED] - Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:28:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "zm/yZ1suVYniggK+4Jo9ew=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:28:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:28:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:28:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dashboard/span_Calendar"), "Calendar"): Actual text and expected text of test object 'Object Repository/Page_Dashboard/span_Calendar' are matched.
+
+2022-01-15 11:28:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dashboard/span_Calendar' are matched.
+
+2022-01-15 11:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Calendar")): Object: 'Object Repository/Page_Dashboard/span_Calendar' is clicked on
+
+2022-01-15 11:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Calendar' is clicked on
+
+2022-01-15 11:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_23")): Object: 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_23' is clicked on
+
+2022-01-15 11:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_23' is clicked on
+
+2022-01-15 11:28:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:28:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 28" time="8.356" classname="Test Cases/test case 28" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:28:24 - [TEST_CASE][PASSED] - Test Cases/test case 28: Test Cases/test case 28
+
+2022-01-15 11:28:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:28:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:28:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:28:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:28:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:28:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "nmthu"): Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:28:28 - [MESSAGE][PASSED] - Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:28:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "zm/yZ1suVYniggK+4Jo9ew=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:28:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:28:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_23")): Object: 'Object Repository/Page_Dashboard/a_23' is clicked on
+
+2022-01-15 11:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_23' is clicked on
+
+2022-01-15 11:28:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:28:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 29" time="69.701" classname="Test Cases/test case 29" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:28:32 - [TEST_CASE][PASSED] - Test Cases/test case 29: Test Cases/test case 29
+
+2022-01-15 11:28:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:28:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:28:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:28:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:28:34 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:28:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:28:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "nmthu"): Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:28:36 - [MESSAGE][PASSED] - Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:28:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "zm/yZ1suVYniggK+4Jo9ew=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:28:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:28:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dashboard/a_3 weeks for Tet"), "3 weeks for Tet"): Actual text and expected text of test object 'Object Repository/Page_Dashboard/a_3 weeks for Tet' are matched.
+
+2022-01-15 11:29:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='month-upcoming-mini-61e168c90490d61e168c8223124']/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:29:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_3 weeks for Tet'. Try using Self-healing.
+
+2022-01-15 11:29:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='month-upcoming-mini-61e168c90490d61e168c8223124']/div/a'.
+
+2022-01-15 11:29:10 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//a[contains(text(),'3 weeks for Tet')]'.
+
+2022-01-15 11:29:10 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/Test-Automation-SE-Bonus/Test-Automation-SE-Bonus/Reports/Self-healing/Object Repository/Page_Dashboard/a_3 weeks for Tet_link.png
+
+2022-01-15 11:29:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_3 weeks for Tet' was broken. Propose an alternative one: '//a[contains(text(),'3 weeks for Tet')]'.
+
+2022-01-15 11:29:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dashboard/a_3 weeks for Tet' are matched.
+
+2022-01-15 11:29:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_3 weeks for Tet")): Object: 'Object Repository/Page_Dashboard/a_3 weeks for Tet' is clicked on
+
+2022-01-15 11:29:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='month-upcoming-mini-61e168c90490d61e168c8223124']/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:29:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_3 weeks for Tet'. Try using Self-healing.
+
+2022-01-15 11:29:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_3 weeks for Tet' was broken. Propose an alternative one: '//a[contains(text(),'3 weeks for Tet')]'.
+
+2022-01-15 11:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_3 weeks for Tet' is clicked on
+
+2022-01-15 11:29:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:29:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 32" time="103.68" classname="Test Cases/test case 32" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:29:42 - [TEST_CASE][PASSED] - Test Cases/test case 32: Test Cases/test case 32
+
+2022-01-15 11:29:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:29:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:29:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:29:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:29:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:29:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "nmthu"): Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:29:46 - [MESSAGE][PASSED] - Text 'nmthu' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:29:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "zm/yZ1suVYniggK+4Jo9ew=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:29:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:29:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dashboard/a_January 2022"), "January 2022"): Actual text and expected text of test object 'Object Repository/Page_Dashboard/a_January 2022' are matched.
+
+2022-01-15 11:29:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dashboard/a_January 2022' are matched.
+
+2022-01-15 11:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_January 2022")): Object: 'Object Repository/Page_Dashboard/a_January 2022' is clicked on
+
+2022-01-15 11:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_January 2022' is clicked on
+
+2022-01-15 11:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event")): Object: 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event' is clicked on
+
+2022-01-15 11:30:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='calendar-month-61e246c3829ce61e246c351b6315']/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:30:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'. Try using Self-healing.
+
+2022-01-15 11:30:22 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='List of courses'])[1]/following::button[1]'.
+
+2022-01-15 11:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event' is clicked on
+
+2022-01-15 11:30:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save"), "Save"): Actual text and expected text of test object 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save' are matched.
+
+2022-01-15 11:30:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='yui_3_17_2_1_1642219203535_1253']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:30:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'. Try using Self-healing.
+
+2022-01-15 11:30:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Repeat weekly, creating altogether'])[1]/following::button[1]'.
+
+2022-01-15 11:30:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save' are matched.
+
+2022-01-15 11:30:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save")): Object: 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save' is clicked on
+
+2022-01-15 11:31:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='yui_3_17_2_1_1642219203535_1253']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 11:31:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'. Try using Self-healing.
+
+2022-01-15 11:31:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Repeat weekly, creating altogether'])[1]/following::button[1]'.
+
+2022-01-15 11:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save' is clicked on
+
+2022-01-15 11:31:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:31:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 38" time="10.366" classname="Test Cases/test case 38" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:31:26 - [TEST_CASE][PASSED] - Test Cases/test case 38: Test Cases/test case 38
+
+2022-01-15 11:31:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:31:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:31:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:31:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:31:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:31:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:31:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "qmkhoi"): Text 'qmkhoi' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:31:30 - [MESSAGE][PASSED] - Text 'qmkhoi' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:31:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "eiP2h/EMT1hJlGmKEGA7sg=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:31:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:31:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:31:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Quach Minh Khoi")): Object: 'Object Repository/Page_Dashboard/a_Quach Minh Khoi' is clicked on
+
+2022-01-15 11:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Quach Minh Khoi' is clicked on
+
+2022-01-15 11:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Grades")): Object: 'Object Repository/Page_Dashboard/span_Grades' is clicked on
+
+2022-01-15 11:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Grades' is clicked on
+
+2022-01-15 11:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Grades - Quach Minh Khoi/a_Introduction to Computer Science")): Object: 'Object Repository/Page_Grades - Quach Minh Khoi/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Grades - Quach Minh Khoi/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:31:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_IntroCS Activity report (grade)/span_Course total"), "Course total"): Actual text and expected text of test object 'Object Repository/Page_IntroCS Activity report (grade)/span_Course total' are matched.
+
+2022-01-15 11:31:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_IntroCS Activity report (grade)/span_Course total' are matched.
+
+2022-01-15 11:31:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:31:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 39" time="11.501" classname="Test Cases/test case 39" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:31:36 - [TEST_CASE][PASSED] - Test Cases/test case 39: Test Cases/test case 39
+
+2022-01-15 11:31:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:31:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:31:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:31:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:31:37 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:31:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:31:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "qmkhoi"): Text 'qmkhoi' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:31:40 - [MESSAGE][PASSED] - Text 'qmkhoi' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:31:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "eiP2h/EMT1hJlGmKEGA7sg=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:31:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Quach Minh Khoi")): Object: 'Object Repository/Page_Dashboard/a_Quach Minh Khoi' is clicked on
+
+2022-01-15 11:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Quach Minh Khoi' is clicked on
+
+2022-01-15 11:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Profile")): Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-15 11:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-15 11:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Quach Minh Khoi Public profile/a_Introduction to Computer Science")): Object: 'Object Repository/Page_Quach Minh Khoi Public profile/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Quach Minh Khoi Public profile/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Introduction to Computer Science Perso_363e4d/a_Grades")): Object: 'Object Repository/Page_Introduction to Computer Science Perso_363e4d/a_Grades' is clicked on
+
+2022-01-15 11:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Computer Science Perso_363e4d/a_Grades' is clicked on
+
+2022-01-15 11:31:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_IntroCS Activity report (grade)/span_Course total"), "Course total"): Actual text and expected text of test object 'Object Repository/Page_IntroCS Activity report (grade)/span_Course total' are matched.
+
+2022-01-15 11:31:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_IntroCS Activity report (grade)/span_Course total' are matched.
+
+2022-01-15 11:31:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:31:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 40" time="10.266" classname="Test Cases/test case 40" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:31:47 - [TEST_CASE][PASSED] - Test Cases/test case 40: Test Cases/test case 40
+
+2022-01-15 11:31:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:31:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:31:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:31:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:31:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:31:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:31:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "qmkhoi"): Text 'qmkhoi' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:31:52 - [MESSAGE][PASSED] - Text 'qmkhoi' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:31:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "eiP2h/EMT1hJlGmKEGA7sg=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:31:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:31:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4")): Object: 'Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4' is clicked on
+
+2022-01-15 11:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4' is clicked on
+
+2022-01-15 11:31:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_IntroCS")): Object: 'Object Repository/Page_Dashboard/span_IntroCS' is clicked on
+
+2022-01-15 11:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_IntroCS' is clicked on
+
+2022-01-15 11:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Introduction to Computer Science/span_Competencies_media-left")): Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Competencies_media-left' is clicked on
+
+2022-01-15 11:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Competencies_media-left' is clicked on
+
+2022-01-15 11:31:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Grades View/span_Course total"), "Course total"): Actual text and expected text of test object 'Object Repository/Page_Grades View/span_Course total' are matched.
+
+2022-01-15 11:31:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Grades View/span_Course total' are matched.
+
+2022-01-15 11:31:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:31:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 47" time="10.182" classname="Test Cases/test case 47" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:31:58 - [TEST_CASE][PASSED] - Test Cases/test case 47: Test Cases/test case 47
+
+2022-01-15 11:31:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:31:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:31:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:31:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:31:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:32:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:32:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "tmtriet"): Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:32:02 - [MESSAGE][PASSED] - Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:32:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "NMz1A57fMJEpXGm/T4cXeQ=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:32:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Tran Minh Triet")): Object: 'Object Repository/Page_Dashboard/a_Tran Minh Triet' is clicked on
+
+2022-01-15 11:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Tran Minh Triet' is clicked on
+
+2022-01-15 11:32:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Grades")): Object: 'Object Repository/Page_Dashboard/span_Grades' is clicked on
+
+2022-01-15 11:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Grades' is clicked on
+
+2022-01-15 11:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Grades - Tran Minh Triet/a_Introduction to Computer Science")): Object: 'Object Repository/Page_Grades - Tran Minh Triet/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Grades - Tran Minh Triet/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:32:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Grades View/h2_Grader report"), "Grader report"): Actual text and expected text of test object 'Object Repository/Page_Grades View/h2_Grader report' are matched.
+
+2022-01-15 11:32:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Grades View/h2_Grader report' are matched.
+
+2022-01-15 11:32:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:32:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 48" time="11.327" classname="Test Cases/test case 48" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:32:08 - [TEST_CASE][PASSED] - Test Cases/test case 48: Test Cases/test case 48
+
+2022-01-15 11:32:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:32:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:32:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:32:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:32:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:32:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:32:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "tmtriet"): Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:32:12 - [MESSAGE][PASSED] - Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:32:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "NMz1A57fMJEpXGm/T4cXeQ=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:32:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Tran Minh Triet")): Object: 'Object Repository/Page_Dashboard/a_Tran Minh Triet' is clicked on
+
+2022-01-15 11:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Tran Minh Triet' is clicked on
+
+2022-01-15 11:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Profile")): Object: 'Object Repository/Page_Dashboard/span_Profile' is clicked on
+
+2022-01-15 11:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Profile' is clicked on
+
+2022-01-15 11:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Tran Minh Triet Public profile/a_Introduction to Computer Science")): Object: 'Object Repository/Page_Tran Minh Triet Public profile/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Tran Minh Triet Public profile/a_Introduction to Computer Science' is clicked on
+
+2022-01-15 11:32:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Introduction to Computer Science Perso_abbbf2/span_Grades")): Object: 'Object Repository/Page_Introduction to Computer Science Perso_abbbf2/span_Grades' is clicked on
+
+2022-01-15 11:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Computer Science Perso_abbbf2/span_Grades' is clicked on
+
+2022-01-15 11:32:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Grades View/h2_Grader report"), "Grader report"): Actual text and expected text of test object 'Object Repository/Page_Grades View/h2_Grader report' are matched.
+
+2022-01-15 11:32:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Grades View/h2_Grader report' are matched.
+
+2022-01-15 11:32:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:32:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test case 49" time="10.102" classname="Test Cases/test case 49" status="PASSED">
+         <system-out><![CDATA[2022-01-15 11:32:19 - [TEST_CASE][PASSED] - Test Cases/test case 49: Test Cases/test case 49
+
+2022-01-15 11:32:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 11:32:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 11:32:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 11:32:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 11:32:21 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:32:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 11:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_Log in")): Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_Log in' is clicked on
+
+2022-01-15 11:32:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "tmtriet"): Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:32:24 - [MESSAGE][PASSED] - Text 'tmtriet' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-15 11:32:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "NMz1A57fMJEpXGm/T4cXeQ=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:32:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-15 11:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-15 11:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_IntroCS")): Object: 'Object Repository/Page_Dashboard/span_IntroCS' is clicked on
+
+2022-01-15 11:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_IntroCS' is clicked on
+
+2022-01-15 11:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course Introduction to Computer Science/span_Grades")): Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Grades' is clicked on
+
+2022-01-15 11:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course Introduction to Computer Science/span_Grades' is clicked on
+
+2022-01-15 11:32:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Grades View/h2_Grader report"), "Grader report"): Actual text and expected text of test object 'Object Repository/Page_Grades View/h2_Grader report' are matched.
+
+2022-01-15 11:32:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Grades View/h2_Grader report' are matched.
+
+2022-01-15 11:32:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:32:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-15 11:22:07 - [TEST_SUITE][PASSED] - Run all test cases: Test Cases/test case 49]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

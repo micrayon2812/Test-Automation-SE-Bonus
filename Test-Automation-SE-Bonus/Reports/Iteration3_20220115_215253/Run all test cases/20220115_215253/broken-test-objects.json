@@ -1,0 +1,294 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/em_Click to enter text",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642242441890_767\u0027]/span/span/em",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027New password\u0027])[1]/following::em[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/em_Click to enter text_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/a_Dinh Dang Dinh",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642174179288_555\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Dinh Dang Dinh\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/a_Dinh Dang Dinh_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Participants/span_",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1642174222631\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Selected items:\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Participants/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Participants/select_ManagerTeacherNon-editing teacherStudent",
+      "brokenLocator": "//select[@id\u003d\u0027id_inplacevalue_74133699509967380152\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027Dinh Dang Dinh\u0027, \"\u0027\", \u0027s role assignments\u0027)])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Participants/select_ManagerTeacherNon-editing teacherStudent_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Participants/i_concat(Dinh Dang Dinh, , s role assignmen_ff9324",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642174222490_21\u0027]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Participants/i_concat(Dinh Dang Dinh, , s role assignmen_ff9324_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/i_dddinh19gmail.com_icon fa fa-trash fa-fw",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642174322054_556\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[6]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/i_dddinh19gmail.com_icon fa fa-trash fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/button_Delete",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e1977d503fb15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/button_Delete_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/div_Username                               _ccea4b",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642242441890_390\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027id_moodle\u0027]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/div_Username                               _ccea4b_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Error/button_Continue",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e18c0eb0ab214\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[2]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Error/button_Continue_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Stats Participants/span_",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1642173244309\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027fitem_id_userlist\u0027]/div[2]/div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Stats Participants/span__idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Stats Participants/span_Quach Minh Khoi",
+      "brokenLocator": "//li[@id\u003d\u0027form_autocomplete_suggestions-1642173244309-0\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027▼\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Stats Participants/span_Quach Minh Khoi_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course and category management/a_Create new course",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642173112741_71\u0027]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Create new course\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Course and category management/a_Create new course_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Add a new course/h2_Add a new course",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642243253552_65\u0027]/h2",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add a new course\u0027])[1]/following::h2[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Add a new course/h2_Add a new course_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course and category management/a_Introduction to Computer Science",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642250295888_263\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Introduction to Computer Science\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Course and category management/a_Introduction to Computer Science_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course and category management/a_View",
+      "brokenLocator": "//a[@id\u003d\u0027action_link61e2c0502601360\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027course-detail\u0027]/div/div[2]/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Course and category management/a_View_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-month-61e2c4d64109f61e2c4d60f67516\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027List of courses\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642251478287_1318\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/span_Seminar for Final Examination",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642179747286_1999\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No events, Tuesday, 25 January\u0027])[2]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/span_Seminar for Final Examination_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642219203535_1997\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User event\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642219203535_2017\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Delete event\u0027])[1]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Show more",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642251478287_609\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Show more...\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Show more_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_3 weeks for Tet",
+      "brokenLocator": "//div[@id\u003d\u0027month-upcoming-mini-61e168c90490d61e168c8223124\u0027]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u00273 weeks for Tet\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Dashboard/a_3 weeks for Tet_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Festival at uni",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642219203535_1975\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No events, Tuesday, 25 January\u0027])[2]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Festival at uni_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642219203535_2017\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027Are you sure you want to delete the \u0027, \u0027\"\u0027, \u0027Festival at uni\u0027, \u0027\"\u0027, \u0027 event?\u0027)])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Nguyen Minh Thu_1",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642164174829_189\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Nguyen Minh Thu\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Dashboard/a_Nguyen Minh Thu_1_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Nguyen Minh Thu Public profile/textarea_Use enter to send_yui_3_17_2_1_164_553a7a",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1642164193019_38\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Nguyen Minh Thu Public profile/textarea_Use enter to send_yui_3_17_2_1_164_553a7a_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Nguyen Minh Thu Public profile/i__icon fa fa-paper-plane fa-fw",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642164193019_39\u0027]/div/button[2]/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_Nguyen Minh Thu Public profile/i__icon fa fa-paper-plane fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_IntroCS Participants/select_Select                        Keywor_5ec06e",
+      "brokenLocator": "//select[@id\u003d\u0027core_user-local-participantsfilter-filterrow-filtertype-61e2d22d9e97461e2d22d8e5d113\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Filter type\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_IntroCS Participants/select_Select                        Keywor_5ec06e_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_IntroCS Participants/input_Keyword_form_autocomplete_input-16422_b4d395",
+      "brokenLocator": "//input[@id\u003d\u0027form_autocomplete_input-1642254329788\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_215253/Run all test cases/20220115_215253/Object Repository/Page_IntroCS Participants/input_Keyword_form_autocomplete_input-16422_b4d395_position.png"
+    }
+  ]
+}

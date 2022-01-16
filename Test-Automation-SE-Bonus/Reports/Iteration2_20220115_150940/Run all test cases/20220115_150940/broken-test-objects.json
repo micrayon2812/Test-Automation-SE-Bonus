@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Mathemetics/a_Unenrol me from Math",
+      "brokenLocator": "//a[@id\u003d\u0027action_link61e2439977cb812\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027action-menu-2-menu\u0027]/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_150940/Run all test cases/20220115_150940/Object Repository/Page_Course Mathemetics/a_Unenrol me from Math_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Self enrolment (Student)/button_Continue",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e243a5d81b213\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_150940/Run all test cases/20220115_150940/Object Repository/Page_Self enrolment (Student)/button_Continue_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_3 weeks for Tet",
+      "brokenLocator": "//div[@id\u003d\u0027month-upcoming-mini-61e168c90490d61e168c8223124\u0027]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u00273 weeks for Tet\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_150940/Run all test cases/20220115_150940/Object Repository/Page_Dashboard/a_3 weeks for Tet_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-month-61e246c3829ce61e246c351b6315\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027List of courses\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_150940/Run all test cases/20220115_150940/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642219203535_1253\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220115_150940/Run all test cases/20220115_150940/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save_neighbor.png"
+    }
+  ]
+}
