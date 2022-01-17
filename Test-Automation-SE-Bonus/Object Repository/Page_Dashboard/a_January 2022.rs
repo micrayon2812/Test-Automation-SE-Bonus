@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='month-mini-2022-1-5']/table/caption/span[2]/a</value>
+         <value>//div[@id='month-mini-2022-1-1']/table/caption/span[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/calendar/view.php?view=month&amp;time=1642266000</value>
+      <value>http://localhost/calendar/view.php?view=month&amp;time=1642352400</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;month-mini-2022-1-5&quot;)/table[@class=&quot;minicalendar calendartable&quot;]/caption[@class=&quot;calendar-controls&quot;]/span[@class=&quot;current&quot;]/a[1]</value>
+      <value>id(&quot;month-mini-2022-1-1&quot;)/table[@class=&quot;minicalendar calendartable&quot;]/caption[@class=&quot;calendar-controls&quot;]/span[@class=&quot;current&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='month-mini-2022-1-5']/table/caption/span[2]/a</value>
+      <value>//div[@id='month-mini-2022-1-1']/table/caption/span[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642266000']</value>
+      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642352400']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='month-mini-2022-1-1']/table/caption/span[2]/a</value>
+      <value>//div[@id='month-mini-2022-1-5']/table/caption/span[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/calendar/view.php?view=month&amp;time=1642266000']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

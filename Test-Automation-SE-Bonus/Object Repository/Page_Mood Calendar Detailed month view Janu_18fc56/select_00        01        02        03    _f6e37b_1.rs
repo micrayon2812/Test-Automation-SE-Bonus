@@ -133,7 +133,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1642337585482_1270']/select</value>
+      <value>//span[@id='yui_3_17_2_1_1642393846008_1282']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,7 +161,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[2]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[2]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -175,14 +175,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1642251478287_1280']/select</value>
+      <value>//span[@id='yui_3_17_2_1_1642337585482_1270']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[2]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[2]/preceding::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642251478287_1280']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

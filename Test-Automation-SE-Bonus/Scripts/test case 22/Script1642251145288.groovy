@@ -29,14 +29,20 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Dashboard/a_January 2022'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Dashboard/div_Calendar                               _78b00d'), 
+    0)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_New event'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/input_Event title_name'), 
-    'Seminar for Final Examination')
+    'Test for Final Examination')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/select_1        2        3        4        _45ea30'), 
     '26', true)
@@ -44,14 +50,22 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar D
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/select_00        01        02        03    _f6e37b'), 
     '0', true)
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/select_00        01        02        03    _f6e37b_1'), 
+    '0', true)
+
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/span_Seminar for Final Examination'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Test for Final Examination'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Test for Final Examination'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'), 
     0)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete event'))
 

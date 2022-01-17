@@ -64,6 +64,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Mood Calendar D
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Save'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Mood Calendar Detailed month view Janu_18fc56/span_Tet Quiz'), 0)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/span_Tet Quiz'), 
     'Tet Quiz')
 
@@ -72,7 +74,8 @@ WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Saturday, 22 January'), 
     'Saturday, 22 January')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/button_Delete'))
 

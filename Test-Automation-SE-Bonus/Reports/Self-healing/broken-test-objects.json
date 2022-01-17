@@ -1189,6 +1189,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_IntroCS Calendar Detailed month view J_1643b4/button_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Test for Final Examination",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642393846008_2555\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No events, Tuesday, 25 January\u0027])[2]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Test for Final Examination_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Saturday, 22 January",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642337585482_2054\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Saturday, 22 January\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mood Calendar Detailed month view Janu_18fc56/a_Saturday, 22 January_neighbor.png"
     }
   ]
 }
