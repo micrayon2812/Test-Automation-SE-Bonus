@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/user/view.php?id=13&amp;course=4</value>
+      <value>http://localhost/user/view.php?id=17&amp;course=4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/user/view.php?id=13&amp;course=4']</value>
+      <value>//a[@href='http://localhost/user/view.php?id=17&amp;course=4']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tbody/tr/th/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/user/view.php?id=13&amp;course=4']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

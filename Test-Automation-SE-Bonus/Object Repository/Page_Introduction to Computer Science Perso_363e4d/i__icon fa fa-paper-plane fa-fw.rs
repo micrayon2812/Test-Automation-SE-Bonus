@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1642254375574_36']/div/button[2]/span/i</value>
+         <value>//div[@id='yui_3_17_2_1_1642435994262_36']/div/button[2]/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642254375574_36&quot;)/div[@class=&quot;position-relative d-flex flex-column&quot;]/button[@class=&quot;btn btn-link btn-icon icon-size-3 ml-1 mt-auto&quot;]/span[1]/i[@class=&quot;icon fa fa-paper-plane fa-fw&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1642435994262_36&quot;)/div[@class=&quot;position-relative d-flex flex-column&quot;]/button[@class=&quot;btn btn-link btn-icon icon-size-3 ml-1 mt-auto&quot;]/span[1]/i[@class=&quot;icon fa fa-paper-plane fa-fw&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642254375574_36']/div/button[2]/span/i</value>
+      <value>//div[@id='yui_3_17_2_1_1642435994262_36']/div/button[2]/span/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +57,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642254375574_36']/div/button[2]/span/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

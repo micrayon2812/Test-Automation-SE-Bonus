@@ -1,0 +1,94 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/em_Click to enter text",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642435783744_766\u0027]/span/span/em",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027New password\u0027])[1]/following::em[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/em_Click to enter text_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/a_Dinh Dang Dinh",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642174179288_555\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Dinh Dang Dinh\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/a_Dinh Dang Dinh_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Participants/span_",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1642174222631\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Selected items:\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Participants/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Participants/select_ManagerTeacherNon-editing teacherStudent",
+      "brokenLocator": "//select[@id\u003d\u0027id_inplacevalue_74133699509967380152\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027Dinh Dang Dinh\u0027, \"\u0027\", \u0027s role assignments\u0027)])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Participants/select_ManagerTeacherNon-editing teacherStudent_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Participants/i_concat(Dinh Dang Dinh, , s role assignmen_ff9324",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642174222490_21\u0027]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Participants/i_concat(Dinh Dang Dinh, , s role assignmen_ff9324_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/i_dddinh19gmail.com_icon fa fa-trash fa-fw",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642174322054_556\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[6]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/i_dddinh19gmail.com_icon fa fa-trash fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/button_Delete",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e1977d503fb15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Administration Users Accounts Bro_af2de9/button_Delete_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/div_Username                               _ccea4b",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642242441890_390\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027id_moodle\u0027]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/div_Username                               _ccea4b_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Error/button_Continue",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e18c0eb0ab214\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[2]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_233622/Run all test cases/20220117_233623/Object Repository/Page_Error/button_Continue_idRelative.png"
+    }
+  ]
+}

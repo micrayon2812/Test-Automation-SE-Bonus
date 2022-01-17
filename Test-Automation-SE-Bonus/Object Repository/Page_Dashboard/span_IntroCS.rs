@@ -4,23 +4,21 @@
    <name>span_IntroCS</name>
    <tag></tag>
    <elementGuidId>383118e6-a43b-4d3f-8b6b-77a6125a96e2</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'IntroCS' or . = 'IntroCS')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='nav-drawer']/nav/ul/li[6]/a/div/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'IntroCS' or . = 'IntroCS')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -79,14 +77,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Math'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mood: Dashboard'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mood: Dashboard'])[1]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customise this page'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,13 +105,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mood: Dashboard'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Math'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customise this page'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mood: Dashboard'])[1]/preceding::span[3]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -33,30 +33,23 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_Si
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Mood Administration Search/a_Users'))
-
 WebUI.click(findTestObject('Object Repository/Page_Mood Administration Search/a_Users'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Administration Search/a_Add a new user'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/label_Username'), 
-    0)
-
 WebUI.setText(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/input_Username_username'), 
     'qmkhoi')
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/input_New password_newpassword_1'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/em_Click to enter text'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/input_New password_newpassword'), 
-    'eiP2h/EMT1gGbs0OIJkleA==')
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/input_First name_firstname'), 
-    0)
+    'eiP2h/EMT1hJlGmKEGA7sg==')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/input_First name_firstname'), 
     'Quach')
-
-WebUI.click(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/div_Username                               _ccea4b'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Mood Administration Users Accounts Add_0e8dec/input_Surname_lastname'), 
     'Minh Khoi')

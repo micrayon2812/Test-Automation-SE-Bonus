@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control is-invalid</value>
+      <value>form-control </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,6 +68,13 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id_firstname&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
       <value>id_error_firstname</value>
@@ -78,13 +85,6 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;id_firstname&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642242441890_777']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1642435783744_778']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642242441890_777']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

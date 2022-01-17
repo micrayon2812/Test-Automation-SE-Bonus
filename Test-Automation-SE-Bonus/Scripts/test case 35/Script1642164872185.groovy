@@ -23,8 +23,6 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle/a_Log in'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username'), 'nmthu')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password'), 'zm/yZ1suVYniggK+4Jo9ew==')
@@ -35,18 +33,21 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/span_In
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_IntroCS'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Participants'), 
-    'Participants')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Participants'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Participants'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_IntroCS Participants/select_Select                        Keywor_5ec06e'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_IntroCS Participants/select_Select                        Keywor_4b957f'), 
     0)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_Select                        Keywor_5ec06e'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Participants/select_Select                        Keywor_4b957f'), 
     'keywords', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_IntroCS Participants/input_Keyword_form_autocomplete_input-16422_b4d395'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_IntroCS Participants/input_Keyword_form_autocomplete_input-16424_537ecb'), 
+    0)
+
+WebUI.setText(findTestObject('Object Repository/Page_IntroCS Participants/input_Keyword_form_autocomplete_input-16424_537ecb'), 
     'Quach Minh Khoi')
 
 WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/button_Apply filters'))
@@ -56,7 +57,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_IntroCS Partici
 
 WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/button_Apply filters_1'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_IntroCS Participants/a_Quach Minh Khoi'), 'Quach Minh Khoi')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_IntroCS Participants/a_Quach Minh Khoi'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_IntroCS Participants/a_Quach Minh Khoi'))
 
@@ -65,7 +66,10 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Introduction 
 
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_363e4d/span_Message'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_363e4d/textarea_Use enter to send_yui_3_17_2_1_164_27b639'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_363e4d/textarea_Use enter to send_form-control bg-light'), 
+    0)
+
+WebUI.setText(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_363e4d/textarea_Use enter to send_yui_3_17_2_1_164_db8682'), 
     'Hello')
 
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Computer Science Perso_363e4d/i__icon fa fa-paper-plane fa-fw'))
