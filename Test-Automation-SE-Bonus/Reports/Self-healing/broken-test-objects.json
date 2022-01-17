@@ -1279,6 +1279,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_IntroCS Participants/li_Teacher_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Introduction to Computer Science/a_Quiz",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[17]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@href\u003d\u0027http://localhost/course/mod.php?id\u003d4\u0026add\u003dquiz\u0026section\u003d1\u0026sr\u003d0\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Introduction to Computer Science/a_Quiz_href.png"
     }
   ]
 }
