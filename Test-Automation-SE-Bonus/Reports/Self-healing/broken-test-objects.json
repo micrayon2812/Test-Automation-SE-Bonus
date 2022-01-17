@@ -1179,6 +1179,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_3 weeks for Tet_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_IntroCS Calendar Detailed month view J_1643b4/button_Delete",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642179933493_2046\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Edit\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_IntroCS Calendar Detailed month view J_1643b4/button_Delete_neighbor.png"
     }
   ]
 }
