@@ -7,7 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Site home' or . = 'Site home')]</value>
       </entry>
       <entry>
          <key>XPATH</key>

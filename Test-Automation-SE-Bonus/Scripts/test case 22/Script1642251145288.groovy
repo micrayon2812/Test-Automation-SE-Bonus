@@ -32,6 +32,8 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/but
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Dashboard/div_Calendar                               _78b00d'), 
     0)
 
+WebUI.verifyElementVisible(findTestObject('Page_Dashboard/div_Calendar                               _78b00d'))
+
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_January 2022'))

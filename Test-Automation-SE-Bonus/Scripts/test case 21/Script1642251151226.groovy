@@ -29,7 +29,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to t
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+WebUI.verifyElementText(findTestObject('Page_Dashboard/a_Site home'), 'Site home')
+
+WebUI.click(findTestObject('Page_Dashboard/span_Site home'))
 
 WebUI.verifyElementText(findTestObject('Page_Moodle/a_Introduction to Computer Science'), 'Introduction to Computer Science')
 

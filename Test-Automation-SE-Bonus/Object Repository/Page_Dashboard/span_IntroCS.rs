@@ -4,10 +4,19 @@
    <name>span_IntroCS</name>
    <tag></tag>
    <elementGuidId>383118e6-a43b-4d3f-8b6b-77a6125a96e2</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'IntroCS' or . = 'IntroCS')]</value>
       </entry>
       <entry>
          <key>XPATH</key>

@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/for
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Page_Dashboard/span_Site home'), 'Site home')
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
 
 WebUI.verifyElementText(findTestObject('Page_Moodle/a_Mathemetics'), 'Mathemetics')

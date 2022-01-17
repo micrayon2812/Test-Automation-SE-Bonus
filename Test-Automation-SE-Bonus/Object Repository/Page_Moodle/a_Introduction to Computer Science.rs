@@ -10,6 +10,10 @@
          <value>a.aalink</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/course/view.php?id=4' and (text() = 'Introduction to Computer Science' or . = 'Introduction to Computer Science')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='frontpage-available-course-list']/div/div/div/h3/a</value>
       </entry>

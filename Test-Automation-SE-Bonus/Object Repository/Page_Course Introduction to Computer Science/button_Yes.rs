@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Are you sure that you want to delete the Quiz ', '&quot;', 'Quiz 1', '&quot;', '?')])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Are you sure that you want to delete the Assignment ', '&quot;', 'Midterm', '&quot;', '?')])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +112,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Are you sure that you want to delete the Assignment ', '&quot;', 'Midterm', '&quot;', '?')])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Are you sure that you want to delete the Quiz ', '&quot;', 'Quiz 1', '&quot;', '?')])[1]/following::button[1]</value>
    </webElementXpaths>
 </WebElementEntity>

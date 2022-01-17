@@ -91,7 +91,13 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introd
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing off'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/li_Quiz 1                                  _38519f'))
+
+WebUI.click(findTestObject('Page_Course Introduction to Computer Science/span_IntroCS'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Course Introduction to Computer Science/button_Turn editing off'), 0)
+
+WebUI.click(findTestObject('Page_Course Introduction to Computer Science/button_Turn editing off'))
 
 WebUI.closeBrowser()
 

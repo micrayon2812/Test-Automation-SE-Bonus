@@ -42,10 +42,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Course Introducti
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Add an activity or resource'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/img_Recommended_icon icon'), 
+WebUI.waitForElementVisible(findTestObject('Page_Course Introduction to Computer Science/div_Recommended_optionicon mt-2 mb-1 icon-s_bba414'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/img_Recommended_icon icon'))
+WebUI.click(findTestObject('Page_Course Introduction to Computer Science/div_Recommended_optionicon mt-2 mb-1 icon-s_bba414'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton2'), 
     0)

@@ -73,11 +73,15 @@ WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Comput
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/span_Delete'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Yes'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Yes'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Yes'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing off'))
+WebUI.click(findTestObject('Page_Course Introduction to Computer Science/span_IntroCS'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing off'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Introduction to Computer Science/button_Turn editing off'))
 

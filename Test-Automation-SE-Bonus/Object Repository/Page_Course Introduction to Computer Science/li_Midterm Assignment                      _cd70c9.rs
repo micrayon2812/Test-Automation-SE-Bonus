@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#module-14</value>
+         <value>#module-74</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='module-14']</value>
+         <value>//li[@id='module-74']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>module-14</value>
+      <value>module-74</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -135,21 +135,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;module-14&quot;)</value>
+      <value>id(&quot;module-74&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='module-14']</value>
+      <value>//li[@id='module-74']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='yui_3_17_2_1_1642211286190_331']/li</value>
+      <value>//ul[@id='yui_3_17_2_1_1642415879200_331']/li</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -171,6 +171,20 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div[3]/ul/li</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='module-14']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='yui_3_17_2_1_1642211286190_331']/li</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
